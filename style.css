@@ -1,0 +1,96 @@
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+th {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+blockquote {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+table, th, td {
+    border: 3px solid;
+    padding: 3px;
+    border-collapse: collapse;
+    background-color:#EAEAEA;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+input {
+    border: 1px solid;
+    width: 65px;
+    height: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 21px;
+}
+label {
+    width: 50px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 21px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+    border: 1px solid;
+}
+
+input[type='checkbox'] {
+    width:30px;
+    height:30px;
+}
+
+
+table td.crossed
+{
+   background-image: linear-gradient(to bottom right,  transparent calc(50% - 1px), black, transparent calc(50% + 1px)); 
+}
+
+
+tr.results td label
+{
+    font-size: 21px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none;
+    background-color:#EAEAEA;
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "skillname":"RHeath_S3_C",
+        "phystype": "pierce",
+        "sintype": "envy",
+        "coinpwr" : 4,
+        "basepwr" : 3,
+        "coinnum" : 5,
+        "OL" : 5,
+        "coins": [
+            {"efct": [{"frag":2}]},
+            {"efct": [{"frag":2}]},
+            {"efct": [{"rupt":1}]},
+            {"efct": [{"rupt":2}]},
+            {"efct": [{"rupt":3}]}
+        ]
+    },
+    {
+        "skillname":"RHeath_S2",
+        "phystype": "pierce",
+        "sintype": "glut",
+        "coinpwr" : 3,
+        "basepwr" : 4,
+        "coinnum" : 4,
+        "OL" : 5,
+        "coins": [
+            {"efct": [{"blee":1}]},
+            {"efct": [{"blee":1}]},
+            {"efct": [{"blee":1}]},
+            {}
+        ]
+    },
+    {
+        "skillname":"RHeath_S1",
+        "phystype": "pierce",
+        "sintype": "wrath",
+        "coinpwr" : 2,
+        "basepwr" : 4,
+        "coinnum" : 3,
+        "OL" : 5,
+        "coins": [
+            {},
+            {},
+            {"efct": [{"chrg":3}]}
+        ]
+    }
+]
