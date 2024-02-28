@@ -6,13 +6,13 @@
         "coinpwr" : 4,
         "basepwr" : 3,
         "coinnum" : 5,
-        "OL" : 5,
+        "ol" : 5,
         "coins": [
-            {"efct": [{"frag":2}]},
-            {"efct": [{"frag":2}]},
-            {"efct": [{"rupt":1}]},
-            {"efct": [{"rupt":2}]},
-            {"efct": [{"rupt":3}]}
+            {"APPLY_frag":2},
+            {"APPLY_frag":2},
+            {"APPLY_rupt":1},
+            {"APPLY_rupt":2},
+            {"APPLY_rupt":3}
         ]
     },
     {
@@ -22,11 +22,11 @@
         "coinpwr" : 3,
         "basepwr" : 4,
         "coinnum" : 4,
-        "OL" : 5,
+        "ol" : 5,
         "coins": [
-            {"efct": [{"blee":1}]},
-            {"efct": [{"blee":1}]},
-            {"efct": [{"blee":1}]},
+            {"APPLY_blee":1},
+            {"APPLY_blee":1},
+            {"APPLY_blee":1},
             {}
         ]
     },
@@ -37,11 +37,41 @@
         "coinpwr" : 2,
         "basepwr" : 4,
         "coinnum" : 3,
-        "OL" : 5,
+        "ol" : 5,
         "coins": [
             {},
             {},
-            {"efct": [{"chrg":3}]}
+            {"APPLY_self_chrg":3}
+        ]
+    },
+    {
+        "skillname":"WDon_S2",
+        "phystype": "pierce",
+        "sintype": "gloom",
+        "coinpwr" : 4,
+        "basepwr" : 4,
+        "coinnum" : 3,
+        "ol" : 3,
+        "skillefct" : {"SKILL_if_chrg_ge_7":{"SKILL_coinpwr":1}},
+        "coins": [
+            {"APPLY_self_chrg":4},
+            {"APPLY_self_chrg":4},
+            {"APPLY_frag":2}
+        ]
+    },
+    {
+        "skillname":"WRyo_S2",
+        "phystype": "slash",
+        "sintype": "pride",
+        "coinpwr" : 5,
+        "basepwr" : 2,
+        "coinnum" : 3,
+        "ol" : 5,
+        "skillefct" : {"ONUSE_APPLY_self_chrg":7, "SKILL_if_chrg_ge_10":{"SKILL_coinpwr":1}, "SKILL_if_chrg_ge_15":{"SKILL_coinpwr":1}},
+        "coins": [
+            {"SKILL_if_chrg_ge_10": {"APPLY_frag_slash":2}},
+            {},
+            {"APPLY_frag":2}
         ]
     }
 ]

@@ -23,11 +23,13 @@
     },
     {
         "name":"Gossy",
+        "maxhp":1725,
         "hp":1725,
         "part": [
             {
                 "partname": "body",
                 "staggerthresh": [45],
+                "maxhp":1476,
                 "hp":1476,
                 "blunt":0.5,
                 "pierce":1,

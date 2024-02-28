@@ -1,0 +1,7 @@
+{
+    "frag" : {"reduceOnHit?" : false, "removeOnTurn?":true, "decrementCountOnTurn?":false, "hasType":true},
+    "fpwr" : {"reduceOnHit?" : false, "removeOnTurn?":true, "decrementCountOnTurn?":false, "hasType":true},
+    "damg" : {"reduceOnHit?" : false, "removeOnTurn?":true, "decrementCountOnTurn?":false, "hasType":true},
+    "offl" : {"reduceOnHit?" : false, "removeOnTurn?":true, "decrementCountOnTurn?":false, "hasType":true},
+    "defl" : {"reduceOnHit?" : false, "removeOnTurn?":true, "decrementCountOnTurn?":false, "hasType":true}
+}
