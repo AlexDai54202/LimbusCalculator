@@ -1,5 +1,2 @@
-tokens = [2,3,4,5]
-
-for (token of tokens) {
-    console.log(token)
-}
+effect = 'hello'
+console.log(effect.substring(0, 3))

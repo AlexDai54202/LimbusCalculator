@@ -7,6 +7,7 @@
         "basepwr" : 3,
         "coinnum" : 5,
         "ol" : 5,
+        "skillefct":{},
         "coins": [
             {"APPLY_frag":2},
             {"APPLY_frag":2},
@@ -22,6 +23,7 @@
         "coinpwr" : 3,
         "basepwr" : 4,
         "coinnum" : 4,
+        "skillefct":{},
         "ol" : 5,
         "coins": [
             {"APPLY_blee":1},
@@ -38,10 +40,11 @@
         "basepwr" : 4,
         "coinnum" : 3,
         "ol" : 5,
+        "skillefct":{},
         "coins": [
             {},
             {},
-            {"APPLY_self_chrg":3}
+            {"APPLYself_chrg":3}
         ]
     },
     {
@@ -54,8 +57,8 @@
         "ol" : 3,
         "skillefct" : {"SKILL_if_chrg_ge_7":{"SKILL_coinpwr":1}},
         "coins": [
-            {"APPLY_self_chrg":4},
-            {"APPLY_self_chrg":4},
+            {"APPLYself_chrg":4},
+            {"APPLYself_chrg":4},
             {"APPLY_frag":2}
         ]
     },
@@ -67,11 +70,11 @@
         "basepwr" : 2,
         "coinnum" : 3,
         "ol" : 5,
-        "skillefct" : {"ONUSE_APPLY_self_chrg":7, "SKILL_if_chrg_ge_10":{"SKILL_coinpwr":1}, "SKILL_if_chrg_ge_15":{"SKILL_coinpwr":1}},
+        "skillefct" : {"ONUSE_APPLYself_chrg":7, "SKILL_if_chrg_ge_10":{"SKILL_coinpwr":1}, "SKILL_if_chrg_ge_15":{"SKILL_coinpwr":1}},
         "coins": [
             {"SKILL_if_chrg_ge_10": {"APPLY_frag_slash":2}},
             {},
-            {"APPLY_frag":2}
+            {"SKILL_damg":3}
         ]
     }
 ]

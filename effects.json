@@ -1,7 +1,19 @@
 {
-    "frag" : {"reduceOnHit?" : false, "removeOnTurn?":true, "decrementCountOnTurn?":false, "hasType":true},
-    "fpwr" : {"reduceOnHit?" : false, "removeOnTurn?":true, "decrementCountOnTurn?":false, "hasType":true},
-    "damg" : {"reduceOnHit?" : false, "removeOnTurn?":true, "decrementCountOnTurn?":false, "hasType":true},
-    "offl" : {"reduceOnHit?" : false, "removeOnTurn?":true, "decrementCountOnTurn?":false, "hasType":true},
-    "defl" : {"reduceOnHit?" : false, "removeOnTurn?":true, "decrementCountOnTurn?":false, "hasType":true}
+    "frag" : {"rem_on_turn_end":true, "has_type":true},
+    "coinpwr" : {"rem_on_turn_end":true, "has_type":false},
+    "fpwr" : {"rem_on_turn_end":true, "has_type":true},
+    "damg" : {"rem_on_turn_end":true, "has_type":true},
+    "offl" : {"rem_on_turn_end":true, "has_type":true},
+    "rupt" : {"rem_on_turn_end":false, "has_type":false},
+    "blee" : {"rem_on_turn_end":false, "has_type":false},
+    "sink" : {"rem_on_turn_end":false, "has_type":false},
+    "trem" : {"rem_on_turn_end":false, "has_type":false},
+    "tali" : {"rem_on_turn_end":false, "has_type":false},
+    "pois" : {"rem_on_turn_end":false, "has_type":false},
+    "count_rupt" : {"dec_on_hit":true},
+    "count_blee" : {"dec_on_hit":false},
+    "count_sink" : {"dec_on_hit":true},
+    "count_trem" : {"dec_on_hit":false},
+    "count_pois" : {"dec_on_hit":false},
+    "count_burn" : {"dec_on_hit":false}
 }
