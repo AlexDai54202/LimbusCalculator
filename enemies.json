@@ -19,6 +19,8 @@
             "pride":1.5,
             "envy":1,
             "dl":47,
+            "stagger" : 0,
+            "canbestaggered" : false,
             "state":{}
         }
     }
