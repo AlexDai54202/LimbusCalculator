@@ -1,39 +1,141 @@
 [
     {
-        "skillname":"RHeath_S3_C",
-        "phystype": "pierce",
-        "sintype": "envy",
-        "coinpwr" : 4,
-        "basepwr" : 3,
+        "name":"TEMPLATE",
+        "phystype": "PLACEHOLDER",
+        "sintype": "PLACEHOLDER",
+        "coinpwr" : 9999999,
+        "basepwr" : 9999999,
         "coinnum" : 5,
         "ol" : 5,
         "skillefct":{},
         "coins": [
-            {"APPLY_frag":2},
-            {"APPLY_frag":2},
-            {"APPLY_rupt":1},
-            {"APPLY_rupt":2},
-            {"APPLY_rupt":3}
+            {},
+            {},
+            {},
+            {},
+            {}
         ]
-    },
-    {
-        "skillname":"RHeath_S2",
-        "phystype": "pierce",
-        "sintype": "glut",
-        "coinpwr" : 3,
-        "basepwr" : 4,
-        "coinnum" : 4,
-        "skillefct":{},
-        "ol" : 5,
+    },{
+        "name":"WDon_S3",
+        "phystype": "slash",
+        "sintype": "envy",
+        "coinpwr" : 2,
+        "basepwr" : 1,
+        "coinnum" : 5,
+        "ol" : 3,
+        "skillefct":{"WDonS3":1},
         "coins": [
-            {"APPLY_blee":1},
-            {"APPLY_blee":1},
-            {"APPLY_blee":1},
+            {},
+            {},
+            {},
+            {},
+            {"ApplyRuptureToEnemy":[5,0]}
+        ]
+    },{
+        "name":"WDon_S2",
+        "phystype": "pierce",
+        "sintype": "gloom",
+        "coinpwr" : 4,
+        "basepwr" : 4,
+        "coinnum" : 3,
+        "ol" : 3,
+        "skillefct":{"WDonS2":1},
+        "coins": [
+            {"ApplyChargeToSelf":4},
+            {"ApplyChargeToSelf":4},
+            {"ApplyTakeMoreDamageToEnemy": 0.2}
+        ]
+    },{
+        "name":"WDon_S1",
+        "phystype": "slash",
+        "sintype": "sloth",
+        "coinpwr" : 6,
+        "basepwr" : 5,
+        "coinnum" : 1,
+        "ol" : 3,
+        "skillefct":{"WDonS1":1},
+        "coins": [
+            {"ApplyRuptureToEnemy":[1,0], "ApplyChargeToSelf":4}
+        ]
+    },{
+        "name":"WRyo_S3",
+        "phystype": "slash",
+        "sintype": "envy",
+        "coinpwr" : 2,
+        "basepwr" : 3,
+        "coinnum" : 4,
+        "ol" : 5,
+        "skillefct":{"WRyoS3": 1},
+        "coins": [
+            {},
+            {},
+            {},
+            {"DoMoreDamage": 0.3}
+        ]
+    },{
+        "name":"WRyo_S2",
+        "phystype": "slash",
+        "sintype": "pride",
+        "coinpwr" : 5,
+        "basepwr" : 2,
+        "coinnum" : 3,
+        "ol" : 5,
+        "skillefct":{"OnUseApplyChargeToSelf": 7, "WRyoS2CP": 1},
+        "coins": [
+            {"At10ChargeApplyToEnemy": ["slashTakeMoreDamage", 0.2]},
+            {},
+            {"DealMoreDamageIfEnemyHPLessThan30": 0.3}
+        ]
+    },{
+        "name":"WRyo_S1",
+        "phystype": "slash",
+        "sintype": "lust",
+        "coinpwr" : 2,
+        "basepwr" : 3,
+        "coinnum" : 3,
+        "ol" : 5,
+        "skillefct":{"At10ChargeDealMoreDamage": 0.1, "At15ChargeDealMoreDamage": 0.1},
+        "coins": [
+            {"ApplyChargeToSelf": 2},
+            {"ApplyChargeToSelf": 2},
             {}
         ]
     },
     {
-        "skillname":"RHeath_S1",
+        "name":"RHeath_S3",
+        "phystype": "pierce",
+        "sintype": "envy",
+        "coinpwr" : 2,
+        "basepwr" : 3,
+        "coinnum" : 5,
+        "ol" : 5,
+        "skillefct":{"CoinPowerIfSpeedG":[6,2]},
+        "coins": [
+            {"ApplyTakeMoreDamageToEnemy": 0.2},
+            {"ApplyTakeMoreDamageToEnemy": 0.2},
+            {"ApplyRuptureToEnemy":[1, 0]},
+            {"ApplyRuptureToEnemy":[2, 0]},
+            {"ApplyRuptureToEnemy":[3, 0]}
+        ]
+    },
+    {
+        "name":"RHeath_S2",
+        "phystype": "pierce",
+        "sintype": "glut",
+        "coinpwr" : 2,
+        "basepwr" : 4,
+        "coinnum" : 4,
+        "ol" : 5,
+        "skillefct":{"CoinPowerIfSpeedG":[6,1]},
+        "coins": [
+            {"ApplyBleedToEnemy": [1, 0]},
+            {"ApplyBleedToEnemy": [1, 0]},
+            {"ApplyBleedToEnemy": [1, 0]},
+            {}
+        ]
+    },
+    {
+        "name":"RHeath_S1",
         "phystype": "pierce",
         "sintype": "wrath",
         "coinpwr" : 2,
@@ -44,37 +146,7 @@
         "coins": [
             {},
             {},
-            {"APPLYself_chrg":3}
-        ]
-    },
-    {
-        "skillname":"WDon_S2",
-        "phystype": "pierce",
-        "sintype": "gloom",
-        "coinpwr" : 4,
-        "basepwr" : 4,
-        "coinnum" : 3,
-        "ol" : 3,
-        "skillefct" : {"SKILL_if_chrg_ge_7":{"SKILL_coinpwr":1}},
-        "coins": [
-            {"APPLYself_chrg":4},
-            {"APPLYself_chrg":4},
-            {"APPLY_frag":2}
-        ]
-    },
-    {
-        "skillname":"WRyo_S2",
-        "phystype": "slash",
-        "sintype": "pride",
-        "coinpwr" : 5,
-        "basepwr" : 2,
-        "coinnum" : 3,
-        "ol" : 5,
-        "skillefct" : {"ONUSE_APPLYself_chrg":7, "SKILL_if_chrg_ge_10":{"SKILL_coinpwr":1}, "SKILL_if_chrg_ge_15":{"SKILL_coinpwr":1}},
-        "coins": [
-            {"SKILL_if_chrg_ge_10": {"APPLY_frag_slash":2}},
-            {},
-            {"SKILL_damg":3}
+            {"ApplyChargeToSelf": 3}
         ]
     }
 ]

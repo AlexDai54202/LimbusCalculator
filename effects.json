@@ -4,16 +4,10 @@
     "fpwr" : {"rem_on_turn_end":true, "has_type":true},
     "damg" : {"rem_on_turn_end":true, "has_type":true},
     "offl" : {"rem_on_turn_end":true, "has_type":true},
-    "rupt" : {"rem_on_turn_end":false, "has_type":false},
-    "blee" : {"rem_on_turn_end":false, "has_type":false},
-    "sink" : {"rem_on_turn_end":false, "has_type":false},
-    "trem" : {"rem_on_turn_end":false, "has_type":false},
-    "tali" : {"rem_on_turn_end":false, "has_type":false},
-    "pois" : {"rem_on_turn_end":false, "has_type":false},
-    "count_rupt" : {"dec_on_hit":true},
-    "count_blee" : {"dec_on_hit":false},
-    "count_sink" : {"dec_on_hit":true},
-    "count_trem" : {"dec_on_hit":false},
-    "count_pois" : {"dec_on_hit":false},
-    "count_burn" : {"dec_on_hit":false}
+    "Rupture" : {"rem_on_turn_end":false, "has_type":false, "has_count":true},
+    "Bleed" : {"rem_on_turn_end":false, "has_type":false, "has_count":true},
+    "Sinking" : {"rem_on_turn_end":false, "has_type":false, "has_count":true},
+    "Tremor" : {"rem_on_turn_end":false, "has_type":false, "has_count":true},
+    "Talisman" : {"rem_on_turn_end":false, "has_type":false},
+    "Poise" : {"rem_on_turn_end":false, "has_type":false, "has_count":true}
 }

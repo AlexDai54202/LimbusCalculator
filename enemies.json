@@ -1,48 +1,25 @@
 [
     {
-        "name":"neutral",
-        "hp":1725,
-        "part": [
-            {
-                "partname": "body",
-                "staggerthresh": [45],
-                "hp":1476,
-                "blunt":0.5,
-                "pierce":1,
-                "slash":1.3,
-                "wrath":1.5,
-                "lust":0.2,
-                "sloth":1,
-                "glut":0.5,
-                "gloom":1,
-                "pride":1.5,
-                "envy":1,
-                "dl":47
-            }
-        ]
-    },
-    {
         "name":"Gossy",
         "maxhp":1725,
         "hp":1725,
-        "part": [
-            {
-                "partname": "body",
-                "staggerthresh": [45],
-                "maxhp":1476,
-                "hp":1476,
-                "blunt":0.5,
-                "pierce":1,
-                "slash":1.3,
-                "wrath":1.5,
-                "lust":0.2,
-                "sloth":1,
-                "glut":0.5,
-                "gloom":1,
-                "pride":1.5,
-                "envy":1,
-                "dl":47
-            }
-        ]
+        "obslevel":0,
+        "body" : {
+            "staggerthresh": [45],
+            "maxhp":1476,
+            "hp":1476,
+            "blunt":0.5,
+            "pierce":1,
+            "slash":1.3,
+            "wrath":1.5,
+            "lust":0.2,
+            "sloth":1,
+            "glut":0.5,
+            "gloom":1,
+            "pride":1.5,
+            "envy":1,
+            "dl":47,
+            "state":{}
+        }
     }
 ]

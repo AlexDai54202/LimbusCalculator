@@ -1,0 +1,21 @@
+[
+    {
+        "name": "RHeath",
+        "level": 40,
+        "state": {"Ammo":13},
+        "speed": 6,
+        "skills": ["RHeath_S1","RHeath_S2","RHeath_S3"]
+    },{
+        "name": "WRyo",
+        "level": 40,
+        "state": {},
+        "speed": 6,
+        "skills": ["WRyo_S1","WRyo_S2","WRyo_S3"]
+    },{
+        "name": "WDon",
+        "level": 40,
+        "state": {},
+        "speed": 6,
+        "skills": ["WDon_S1","WDon_S2","WDon_S3"]
+    }
+]
